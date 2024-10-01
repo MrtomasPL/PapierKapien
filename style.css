@@ -1,0 +1,73 @@
+body {
+    background-color: darkslateblue;
+    font-family: "Calibri";
+    text-align: center;
+}
+
+input {
+    padding: 120px 60px;
+    font-size: 50px;
+    font-weight: bold;
+    color: crimson;
+    -webkit-text-stroke: 3px black;
+    border-radius: 40px;
+    border: 10px solid blueviolet;
+    margin: 10px;
+    transition: all 0.5s;
+    }
+
+input:hover {
+    cursor: pointer;
+    border: 10px solid aqua;
+    transition: all 0.5s;
+}
+
+h1 {
+    font-size: 15vh;
+    margin: 5vh;
+    transition: ease-out 0.3s;
+    
+}
+h1:hover {
+    transform: rotate(2deg);
+    transition: ease-out 0.3s;
+    color:white;
+    cursor: pointer;
+}
+h2 {
+    padding:  0px;
+    margin: 0px;
+    font-size: 3vh;
+}
+h3 {
+    font-size: 4vh;
+    padding:  0px;
+    margin: 0px;
+}
+#kamien {
+    background:url(kamien\ \(1\)\ \(1\).png) no-repeat;
+}
+#papier {
+    background:url(papier\ \(1\).png) no-repeat;
+}
+#nozyce {
+    background:url(nozyce\ \(1\).png) no-repeat;
+}
+div {
+    padding-bottom: 5vh;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.streak1 {
+    color: #FCBC26;
+}
+.streak2 {
+    color: #F38A02;
+}
+.streak3 {
+    color: #FE3704;
+}
